@@ -1,0 +1,42 @@
+main {
+  padding: 30px;
+}
+
+@media screen and (min-width: 1100px) /* Desktop */ {
+  main {
+    font-size: 120%;
+    background: red;
+  }
+}
+
+@media screen  and (max-width: 800px) /* Tablet */ {
+  main {
+    font-size: 100%;
+    background: blue;
+  }
+}
+
+@media screen and (max-width: 400px) /* Mobile */ {
+  main {
+    font-size: 80%;
+    background: green;
+  }
+}
+
+h1 {
+  font-family: 'Baloo', sans-serif;
+  font-size: 7em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1;
+  color: rainbow;
+}
+
+p {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  color: black;
+}
