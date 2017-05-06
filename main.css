@@ -27,6 +27,7 @@ p {
   text-align: center;
   line-height: 1.5;
   color: #fff;
+  margin-top: .5em;
 }
 
 h1 {animation: rainbow 2s ease-out infinite alternate;
@@ -36,6 +37,7 @@ h1 {animation: rainbow 2s ease-out infinite alternate;
   line-height: 1;
   text-align: center;
   color: #fff;
+  margin-bottom: 0px;
 }
 
 .wrapper {
